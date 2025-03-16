@@ -1,0 +1,266 @@
+body,html{
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 10px 20px;
+}
+
+.navbar .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    position: relative;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    min-width: 150px;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+    text-align: left;
+}
+
+.dropdown-menu li a {
+    color: black;
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search-bar input {
+    border: none;
+    padding: 5px;
+    outline: none;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.icons a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.image{
+    width: 100vw;
+    display: block;
+
+}
+.features-section{
+    display: flex;
+    justify-content:space-between;
+    padding: 0 13%;
+    border-bottom:1px solid ;
+    background-color: orange;
+    border: 1px solid;
+}
+.feature {
+    display: flex;
+    padding: 0 5px;
+    font-size: 1rem;
+}
+.icon{
+    margin-top: 15px;
+    margin-right: 5px;
+    width: 28px;
+    height: 28px;
+}
+.sales{
+    margin-left: 5%;
+    margin-top: 15px;
+    background-color: whitesmoke;
+    /* border: 1px solid; */
+    padding: 15Px;
+}
+.title,.title-1{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+.title-1{
+    margin-left: 5%;
+    margin-top: 15px;
+}
+
+.phones{
+    display: flex;
+    overflow: auto;
+    gap: 15px;
+    padding: 20px;
+}
+.phone-image{
+    max-width: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.phone{
+    border: 1px solid; 
+    border-radius: 15px;
+    background-color: white;
+}
+.phone-name,.phone-description{
+    font-size: 1rem;
+    font-weight:600;
+    font-family: sans-serif;
+    margin: 2px 5px;
+}
+.phone-color{
+    display: flex;
+    gap: 3px;
+    margin-left:5px ;
+    margin-bottom: 10px;
+}
+.price{
+    display: flex;
+    margin: 0;
+    margin-left:5px;
+    gap: 15px;
+}
+.old-price{
+    margin: 0;
+    font-weight: lighter;
+    text-decoration: line-through;
+    color: grey;
+}
+.new-price{
+    margin: 0;
+    font-weight: bolder;
+    color: orangered;
+}
+.circal{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+footer {
+    background: #ff8800;
+    color: white;
+    padding: 20px 0;
+    padding-top: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a img {
+    width: 30px;
+    margin: 0 5px;
+    transition: transform 0.3s;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.1);
+}
+
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background: #e67600;
+    font-size: 14px;
+}
+.X-icon{
+    border-radius: 15px;
+}
+.empty{
+    height: 35px;
+    background: #333;
+
+}
